@@ -1,0 +1,17 @@
+.register {
+  text-align: center;
+}
+
+.register h1 {
+  margin-bottom: 0;
+}
+
+.register p {
+  color: #aaa;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 20px 0 10px 0;
+}
