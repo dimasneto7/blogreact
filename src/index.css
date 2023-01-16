@@ -112,3 +112,7 @@ button[disabled] {
   padding: 5px;
   border-radius: 5px;
 }
+
+h1 {
+  padding-top: 1rem;
+}

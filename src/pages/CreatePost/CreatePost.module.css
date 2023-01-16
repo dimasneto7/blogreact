@@ -1,0 +1,14 @@
+.createPost {
+  text-align: center;
+}
+
+.createPost h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.createPost p {
+  font-size: 1.3rem;
+  max-width: 500px;
+  margin: 5px auto 30px auto;
+}
