@@ -1,0 +1,62 @@
+.dashboard {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.postTitle {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.noposts {
+  margin-top: 30px;
+}
+
+.noposts p {
+  margin-bottom: 30px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+
+.btnOutline {
+  background-color: transparent;
+  border-radius: 10px;
+  color: #8257e6;
+  border: 1px solid #8257e6;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnOutline:hover {
+  background-color: #8257e6;
+  color: #fff;
+}
+
+.btnDanger {
+  background-color: transparent;
+  border-radius: 9px;
+  color: #8257e6;
+  border: 1px solid #8257e6;
+  font-family: "poppins";
+  font-size: 1rem;
+  width: 100px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnDanger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}

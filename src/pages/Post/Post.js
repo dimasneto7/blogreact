@@ -12,7 +12,7 @@ const Post = () => {
       {loading && <p>carregando post...</p>}
       {post && (
         <>
-          <h1>{post.title}</h1>
+          <h2>{post.title}</h2>
           <img src={post.image} alt={post.title} />
           <p>{post.body}</p>
           <h3>Este post trata sobre:</h3>

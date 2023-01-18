@@ -97,8 +97,21 @@ textarea {
   color: #fff;
 }
 
+.btn.btn-danger {
+  background-color: transparent;
+  border-radius: 10px;
+  color: #8257e6;
+  border: 1px solid #8257e6;
+  padding: 7px 30px;
+  font-family: "poppins";
+  font-weight: 500;
+}
+
 .btn.btn-danger:hover {
   background-color: #dc3545;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1rem;
 }
 
 button[disabled] {
@@ -118,4 +131,13 @@ button[disabled] {
 h1 {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.2rem;
 }
