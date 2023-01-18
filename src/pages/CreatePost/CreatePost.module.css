@@ -10,7 +10,7 @@
 .createPost p {
   font-size: 1.3rem;
   max-width: 500px;
-  margin: 5px auto 30px auto;
+  margin: 0 auto 30px auto;
 }
 
 .createPost button {

@@ -116,5 +116,6 @@ button[disabled] {
 }
 
 h1 {
-  padding-top: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
