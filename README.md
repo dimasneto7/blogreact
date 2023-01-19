@@ -22,7 +22,8 @@
 
 [Blog React](https://blogreact-chi.vercel.app)
 
-In this project you can check several posts. After logging in as a user, you can create a post, edit and delete it.
+In this project you can check various posts and search for tags.
+It is possible to create a user and after that, it is possible to create a post, edit and delete this post.
 
 ## 🚀 Technologies
 
