@@ -1,0 +1,28 @@
+.editPost {
+  text-align: center;
+}
+
+.editPost h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.editPost p {
+  font-size: 1.3rem;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+
+.editPost button {
+  margin-top: 15px;
+}
+
+.editPost .preview_title {
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.image_preview {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
