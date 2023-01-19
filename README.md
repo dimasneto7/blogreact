@@ -1,9 +1,10 @@
 <h1 align="center">
-  <img alt="Blog React" title="Blog React" width="300px"  src=".github/reactBlog.svg" />
+  <img alt="Blog React" title="Blog React" width="300px"  src=".github/blogReact.svg" />
 </h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/dimas-neto-136aa91a5/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Dimas%20Neto-%blueviolet"></a>
+  <a href="https://www.linkedin.com/in/dimas-neto-136aa91a5/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Dimas%20Neto-%238257e6"></a>
+  
 </p>
 
 <p align="center">
@@ -17,7 +18,7 @@
   <img alt="dtmoney" src=".github/dtmoney.png" width="100%">
 </p> -->
 
-## About the project
+## 📖 About the project
 
 [Blog React](https://blogreact-chi.vercel.app)
 
