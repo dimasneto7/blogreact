@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="dtmoney" title="dtmoney" width="400px"  src=".github/logo.svg" />
+  <img alt="dtmoney" title="dtmoney" width="400px"  src="./public/reactBlog.svg" />
 </h1>
 
 <h3 align="center">
@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/dimas-neto-136aa91a5/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Dimas%20Neto-%8257e6"></a>
+  <a href="https://www.linkedin.com/in/dimas-neto-136aa91a5/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Dimas%20Neto-%blueviolet"></a>
 </p>
 
 <p align="center">
@@ -22,26 +22,16 @@
   <img alt="dtmoney" src=".github/dtmoney.png" width="100%">
 </p> -->
 
-## 💲 About the project
+## About the project
 
-[dt money](https://mymoney-pearl.vercel.app/) is a project created in [Rocketseat](https://rocketseat.com.br/) Ignite ReactJS training.
+[Blog React](https://blogreact-chi.vercel.app)
 
-In this project you can save your transactions and see the total off money.
-
-## 🔖 Layout
-
-You can view the project layout through the links below:
-
-- [Layout in Figma](https://www.figma.com/file/)
-
-> Remembering that you need to have a [Figma](http://figma.com/) account to access it.
+In this project you can check several posts. After logging in as a user, you can create a post, edit and delete it.
 
 ## 🚀 Technologies
 
 - [ReactJS](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Miragejs](https://miragejs.com/)
-- [Styled Components](https://styled-components.com/)
+- [Firebase](https://www.firebase.com)
 
 ## 💻 Getting started
 
@@ -53,7 +43,7 @@ You can view the project layout through the links below:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/dimasneto7/mymoney && cd mymoney
+$ git clone https://github.com/dimasneto7/blogreact && cd blogreact
 ```
 
 **Follow the steps below**
