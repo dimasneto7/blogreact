@@ -1,11 +1,5 @@
 import "./App.css";
-import {
-  BroserRouter,
-  Routes,
-  Route,
-  Navigate,
-  BrowserRouter,
-} from "react-router-dom";
+import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 
 import { onAuthStateChanged } from "firebase/auth";
 
@@ -26,6 +20,8 @@ import Search from "./pages/Search/Search";
 import Post from "./pages/Post/Post";
 import EditPost from "./pages/EditPost/EditPost";
 
+import { RotatingLines } from "react-loader-spinner";
+
 function App() {
   const [user, setUser] = useState(undefined);
   const { auth } = useAuthentication();
@@ -39,7 +35,17 @@ function App() {
   }, [auth]);
 
   if (loadingUser) {
-    return <p>Carregando...</p>;
+    return (
+      <div className="loading">
+        <RotatingLines
+          strokeColor="grey"
+          strokeWidth="3"
+          animationDuration="0.75"
+          width="50"
+          visible={true}
+        />
+      </div>
+    );
   }
 
   return (

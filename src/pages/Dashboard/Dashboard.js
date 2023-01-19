@@ -5,6 +5,8 @@ import { useAuthValue } from "../../context/AuthContext";
 import { useFetchDocuments } from "../../hooks/useFetchDocuments";
 import { useDeleteDocument } from "../../hooks/useDeleteDocument";
 
+import { RotatingLines } from "react-loader-spinner";
+
 const Dashboard = () => {
   const { user } = useAuthValue();
   const uid = user.uid;
@@ -14,7 +16,17 @@ const Dashboard = () => {
   const { deleteDocument } = useDeleteDocument("posts");
 
   if (loading) {
-    return <p>Carregando...</p>;
+    return (
+      <div className="loading">
+        <RotatingLines
+          strokeColor="grey"
+          strokeWidth="3"
+          animationDuration="0.75"
+          width="50"
+          visible={true}
+        />
+      </div>
+    );
   }
 
   return (

@@ -2,6 +2,7 @@ import styles from "./Post.module.css";
 
 import { useParams } from "react-router-dom";
 import { useFetchDocument } from "../../hooks/useFetchDocument";
+import { RotatingLines } from "react-loader-spinner";
 
 const Post = () => {
   const { id } = useParams();
@@ -9,7 +10,17 @@ const Post = () => {
 
   return (
     <div className={styles.post_container}>
-      {loading && <p>carregando post...</p>}
+      {loading && (
+        <div className="loading">
+          <RotatingLines
+            strokeColor="grey"
+            strokeWidth="3"
+            animationDuration="0.75"
+            width="50"
+            visible={true}
+          />
+        </div>
+      )}
       {post && (
         <>
           <h2>{post.title}</h2>

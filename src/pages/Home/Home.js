@@ -5,6 +5,8 @@ import { useState } from "react";
 import { useFetchDocuments } from "../../hooks/useFetchDocuments";
 import PostDetail from "../../components/PostDetail";
 
+import { RotatingLines } from "react-loader-spinner";
+
 const Home = () => {
   const [query, setQuery] = useState("");
   const { documents: posts, loading } = useFetchDocuments("posts");
@@ -30,7 +32,15 @@ const Home = () => {
         <button className="btn btn-dark">Pesquisar</button>
       </form>
       <div>
-        {loading && <p>Carregando...</p>}
+        {loading && (
+          <RotatingLines
+            strokeColor="grey"
+            strokeWidth="3"
+            animationDuration="0.75"
+            width="50"
+            visible={true}
+          />
+        )}
         {posts && posts.map((post) => <PostDetail key={post.id} post={post} />)}
         {posts && posts.length === 0 && (
           <div className={styles.noposts}>
