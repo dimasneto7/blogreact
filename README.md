@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="dtmoney" title="dtmoney" width="400px"  src="./public/reactBlog.svg" />
+  <img alt="Blog React" title="Blog React" width="300px"  src=".github/reactBlog.svg" />
 </h1>
 
 <h3 align="center">
@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/dimas-neto-136aa91a5/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Dimas%20Neto-%blueviolet"></a>
+  <a href="https://www.linkedin.com/in/dimas-neto-136aa91a5/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Dimas%20Neto&logoColor=blueviolet"></a>
 </p>
 
 <p align="center">
